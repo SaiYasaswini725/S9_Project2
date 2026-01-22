@@ -4,12 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import Login from './Login.jsx'
 import Counter from './Counter.jsx'
+import Sai from './Sai.jsx'
+import Yasaswini from './Yasaswini.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  
-  <Login />
-  <Counter />
-
+    <Yasaswini />
+    <Sai />
+    <Login />
+    <Counter />
   </StrictMode>,
 )
